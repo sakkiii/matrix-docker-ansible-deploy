@@ -474,4 +474,4 @@ matrix_nginx_proxy_synapse_frontend_proxy_locations: []
 matrix_nginx_proxy_worker_processes: 1
 matrix_nginx_proxy_worker_connections: 1024
 
-matrix_ci_chage_test: fasle
+matrix_ci_chage_test: 
