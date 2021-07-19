@@ -28,6 +28,8 @@ jobs:
         uses: roles-ansible/check-ansible-ubuntu-trusty-action@master
         with:
           targets: "setup.yml"
+          args: "-p --parseable-severity"
+          
 #       - name: ansible check with ubuntu:focal
 #         # replace "master" with any valid ref
 #         uses: roles-ansible/check-ansible-ubuntu-focal-action@master
