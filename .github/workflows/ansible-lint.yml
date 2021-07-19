@@ -22,13 +22,13 @@ jobs:
         uses: ansible/ansible-lint-action@v4.1.0.post0
         with:
           targets: "setup.yml"
+          args: "-p --parseable-severity"
       
       - name: ansible check with ubuntu:trusty
         # replace "master" with any valid ref
         uses: roles-ansible/check-ansible-ubuntu-trusty-action@master
         with:
           targets: "setup.yml"
-          args: "-p --parseable-severity"
           
 #       - name: ansible check with ubuntu:focal
 #         # replace "master" with any valid ref
