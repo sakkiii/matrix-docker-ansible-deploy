@@ -20,7 +20,7 @@ jobs:
         
         # [optional]
         # Arguments to be passed to the ansible-lint
-        Options:
-          -x metadata, formatting
+        #Options:
+        #  -x metadata, formatting
 
-        args: "-q"
+        args: "-x metadata, formatting"
